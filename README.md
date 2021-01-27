@@ -30,5 +30,5 @@
   > 1.  Excuted at commit phase, so side-effects are permmited
 
 - Production vs Development
- - On production, instead, the errors will not bubble up, which means any ancestor error handler will only receive errors not explicitly caught by componentDidCatch().
- - On development, the errors will bubble up to window, this means that any window.onerror or window.addEventListener('error', callback) will intercept the errors that have been caught by componentDidCatch().
+ 	- On production, instead, the errors will not bubble up, which means any ancestor error handler will only receive errors not explicitly caught by componentDidCatch().
+	 - On development, the errors will bubble up to window, this means that any window.onerror or window.addEventListener('error', callback) will intercept the errors that have been caught by componentDidCatch().
